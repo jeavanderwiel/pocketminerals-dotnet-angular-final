@@ -7,3 +7,4 @@ If you are looking for the repository for the version of this app created on .Ne
 
 https://github.com/TryCatchLearn/Pocketminerals3.1
 # pocketminerals-net-angular-final
+# pocketminerals-dotnet-angular-final
