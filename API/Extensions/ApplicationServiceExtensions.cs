@@ -37,6 +37,7 @@ namespace API.Extensions
                     return new BadRequestObjectResult(errorResponse);
                 };
             });
+            services.AddScoped<IPhotoService, PhotoService>();
 
             return services;
         }
