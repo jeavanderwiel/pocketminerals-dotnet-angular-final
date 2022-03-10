@@ -21,11 +21,13 @@
     "@angular/platform-browser-dynamic": "*",
     "@angular/router": "*",
     "@kolkov/ngx-gallery": "*",
-    "bootstrap": "^4.6.0",
+    "bootstrap": "*",
     "bootswatch": "*",
     "font-awesome": "*",
     "ng2-currency-mask": "*",
     "ngx-bootstrap": "*",
+    "ngx-dropzone": "*",
+    "ngx-image-cropper": "*",
     "ngx-spinner": "*",
     "ngx-toastr": "*",
     "rxjs": "*",
@@ -51,6 +53,6 @@
     "protractor": "*",
     "ts-node": "*",
     "tslint": "*",
-    "typescript": "~4.4.2"
+    "typescript": "~4.5.5"
   }
 }

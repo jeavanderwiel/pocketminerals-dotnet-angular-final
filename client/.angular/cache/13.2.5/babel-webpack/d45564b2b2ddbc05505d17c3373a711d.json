@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class ProductFormValues {\n  constructor(init, _IProduct) {\n    this.name = '';\n    this.description = '';\n    this.price = 0;\n    this.pictureUrl = '';\n    Object.assign(this, init);\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

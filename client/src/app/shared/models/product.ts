@@ -25,13 +25,28 @@ export interface IProductToCreate {
   productBrandId: number;
 }
 
-export class ProductFormValues implements IProductToCreate {
+export interface ProductFormValues {
+  id: number;
+  name: string;
+  description: string;
+  price: number;
+  pictureUrl: string;
+  productType: string;
+  productBrand: string;
+  photos: IPhoto[];
+}
+
+export class ProductFormValues implements IProductToCreate{
   name = '';
   description = '';
   price = 0;
   pictureUrl = '';
   productBrandId: number;
   productTypeId: number;
+ 
+  
+ 
+
 
   constructor(init?: ProductFormValues) {
     Object.assign(this, init);
